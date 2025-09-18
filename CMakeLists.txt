@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 project(simple_vcpkg_library_application)
 
-find_package(simple_vcpkg_library REQUIRED)
+find_package(SimpleLibraryExample REQUIRED)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_libraries(${PROJECT_NAME} PUBLIC LibEX::simple_vcpkg_library_LibB)
+target_link_libraries(${PROJECT_NAME} PUBLIC LibEX::SimpleLibraryExample_LibB)
