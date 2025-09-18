@@ -1,0 +1,7 @@
+{
+  "name": "simple-vcpkg-library-application",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "simple-vcpkg-library"
+  ]
+}
