@@ -1,7 +1,11 @@
 # simple\_vcpkg\_library\_application
 
-This repository creates a test application that links to the [simple\_vcpkg\_library](https://github.com/drescherjm/simple_vcpkg_library) which is setup to be built using vcpkg in manifest mode.
+## Purpose
 
+This repository, along with [simple_vcpkg_library](https://github.com/drescherjm/simple_vcpkg_library), provides a minimal C++ library example that demonstrates how to make your own libraries consumable via vcpkg in manifest mode.
+
+The test application in this repository automatically downloads, compiles, and links against *simple_vcpkg_library* using vcpkg's manifest workflow.
+ 
 # Project Design Notes
 
 1. vcpkg.json is used to setup the dependency to the library created in the simple\_vcpkg\_library.
